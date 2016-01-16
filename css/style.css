@@ -1,0 +1,82 @@
+/**********************Setup********************************/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F6F4EC;
+    background-image: url("../img/noise.png");
+    font-family: "Open Sans", sans-serif;
+    margin: 3% auto;
+    width: 1000px;
+    height: 80vh;
+
+    padding: 15px;
+    border-radius: 4px;
+    overflow: hidden;
+    font-size: 80%;
+}
+h2 {text-align: center;font-weight: 100;}
+.h_line {
+    height: 1px;
+    width: 60%;
+    background: #AFAEAA;
+    float: left;
+}
+
+/*****************Log in Page***************************/
+.login_form_container {
+  width: 50%;
+  height: 33%;
+  min-height: 170px;
+  font-size: 110%;
+  margin: 60px auto;
+  box-shadow: 0 0 3px gray;
+  border-radius: 3px;
+  padding: 2%;
+}
+
+.logo_container {
+  width: 49%;
+  float: left;
+}
+
+.form_container {
+  width: 50%;
+  float: right;
+
+}
+.form_container::before {
+  width: 1px;
+  height: 80%;
+  background-color: black;
+}
+
+.form_container input {
+  margin: 5px 0;
+	padding: 7px 7px;
+  font-weight: bold;
+	border: 0;
+  border-radius: 3px;
+	box-shadow: 0 0 1px inset;
+}
+input[type="submit"] {
+  background-color: #F6F4EC;
+  cursor: pointer;
+  font-size: ;
+  font-weight: bold;
+}
+input[type="submit"]:hover{
+  background-color: #34bf49;
+}
+/***********footer & copyright****************/
+
+footer {
+  font-size: 90%;
+  text-align: center;
+}
+.copyright {
+  float: right;
+  margin-top: 100px;
+}
