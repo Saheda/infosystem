@@ -7,24 +7,44 @@
   </head>
   <body>
     <div class="heading">
-        <h3>New Employee</h3>
+        <h1>New Employee</h1> <input type="button" value="Save" name="save_employee" />
     </div>
     <div class="employee_form">
         <div class="emp_photo">
 
         </div>
-        <input type="text" placeholder="Employee Name" name="fullname"/><br/>
+        <input type="text" placeholder="Employee Name" name="name"/><br/>
         <input type="text" placeholder="Designation" name="position" />
         <input type="text" placeholder="Department" name="department" />
         <h4>Personal Information</h4>
         <div class="h_line"></div>
-        Mail: <input type="email" placeholder="Mail" name="email" /> Phone <input type="tel" placeholder="Phone" name="phone" />
+        Full Name: <input type="text" placeholder="Full Name" name="fullname" />
+        Phone: <input type="tel" placeholder="Phone" name="phone" />
+        Mail: <input type="email" placeholder="Mail" name="mail" /><br/>
+        Qualification: <input type="text" placeholder="Educational Qualification" name="qualification" />
+        Identification Number: <input type="text" placeholder="National Identification Number" name="nid" /><br/>
+        Date of Birth: <input type="date" placeholder="Date of Birth" name="dob" />
+        Gender: <input list="gender" name="gender">
+        <datalist id="gender">
+          <option value="Male">
+          <option value="Female">
+          <option value="Other">
+        </datalist>
+        Status: <input list="status" name="status">
+        <datalist id="status">
+          <option value="Married">
+          <option value="Unmarried">
+          <option value="Divorced">
+        </datalist>
         <h4>Official Information</h4>
         <div class="h_line"></div>
         Mail: <input type="email" placeholder="Mail" name="email" /> Phone <input type="tel" placeholder="Phone" name="phone" />
+        Manager <input type="text" placeholder="Manager / Reporting Boss" name="manager" />
         <h4>Financial Information</h4>
         <div class="h_line"></div>
-        Mail: <input type="email" placeholder="Mail" name="email" /> Phone <input type="tel" placeholder="Phone" name="phone" />
+        Bank: <input type="text" placeholder="Bank Name" name="bankname" /> Account No: <input type="text" placeholder="Account No." name="account_no" /><br/>
+        Salary: <input type="number" placeholder="Gross Salary" name="salary_gross" />
+
     </div>
 
     <footer>

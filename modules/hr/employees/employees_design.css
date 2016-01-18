@@ -2,7 +2,7 @@
 .employ_container {
     width: 100%;
     overflow: hidden;
-    height: 450px;
+    height: auto;
 }
 
 .employee_card {
@@ -21,7 +21,7 @@
     box-shadow: 0 0 1px inset;
     margin: 10px auto;
     padding: 1.5%;
-    height: 450px;
+    height: auto;
 }
 
 .emp_photo {
@@ -31,20 +31,17 @@
     float: left;
     margin: 0 2% 2% 0;
 }
-.employee_form input {
-    font-size: 15px;
-    border: 1px solid grey;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 2px;
-}
 
 .employee_form h4 {
     clear: both;
     margin: 10px 5px;
 }
 
-input[name="fullname"] {
+input[name="name"] {
     font-size: 30px;
-    margin: 10px 5px;
+}
+.heading h1 { float: left;}
+
+input[name="new_emp"], input[name="search_employee"], input[name="search"], input[name="save_employee"] {
+  float: right;
 }

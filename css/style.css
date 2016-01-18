@@ -14,7 +14,6 @@ body {
     box-shadow: 0 0 1px inset;
     padding: 15px;
     border-radius: 4px;
-    overflow: hidden;
     font-size: 80%;
 }
 
@@ -25,6 +24,8 @@ h2 {text-align: center;font-weight: 100;}
     width: 80%;
     background: grey;
     clear: both;
+    opacity: 0.5;
+    margin: 5px 0;
 }
 
 .v_line {
@@ -56,14 +57,15 @@ h2 {text-align: center;font-weight: 100;}
 
 }
 
-input { border: 0; }
-
-.form_container input {
+input {
+  border: 0;
   margin: 5px 0;
 	padding: 7px 7px;
-  font-weight: bold;
-  border-radius: 3px;
+  border-radius: 2px;
 	box-shadow: 0 0 1px inset;
+}
+input[type="button"]{
+  padding: 6px 6px;
 }
 input[type="submit"] {
   background-color: #F6F4EC;
@@ -111,11 +113,7 @@ ul.dropdown_menu li ul {
   display: none;
   opacity: 0;
   visibility: hidden;
-  -webkit-transiton: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -ms-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
-  -transition: opacity 0.2s;
+  transition: opacity 0.2s;
 }
 ul.dropdown_menu li ul li {
   background: rgba(0, 0, 0, 0.6);
@@ -134,7 +132,8 @@ ul.dropdown_menu li:hover ul {
     padding: 1%;
     box-shadow: 0 0 1px grey;
     text-align: left;
-
+    height: auto;
+    overflow: hidden;
 }
 
 
@@ -147,5 +146,5 @@ footer {
 }
 .copyright {
   float: right;
-  margin-top: 60px;
+  margin: 40px 0;
 }
