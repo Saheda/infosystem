@@ -1,0 +1,50 @@
+/***************This sheet contains design parts of employees module****************/
+.employ_container {
+    width: 100%;
+    overflow: hidden;
+    height: 450px;
+}
+
+.employee_card {
+    height: 100px;
+    width: 31%;
+    border-radius: 2px;
+    box-shadow: 0 0 1px inset;
+    float: left;
+    margin: 1%;
+    padding: 1%;
+}
+
+.employee_form {
+    width: 100%;
+    border-radius: 2px;
+    box-shadow: 0 0 1px inset;
+    margin: 10px auto;
+    padding: 1.5%;
+    height: 450px;
+}
+
+.emp_photo {
+    width: 120px;
+    border: 1px solid grey;
+    height: 120px;
+    float: left;
+    margin: 0 2% 2% 0;
+}
+.employee_form input {
+    font-size: 15px;
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+.employee_form h4 {
+    clear: both;
+    margin: 10px 5px;
+}
+
+input[name="fullname"] {
+    font-size: 30px;
+    margin: 10px 5px;
+}
