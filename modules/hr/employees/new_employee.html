@@ -18,32 +18,80 @@
         <input type="text" placeholder="Department" name="department" />
         <h4>Personal Information</h4>
         <div class="h_line"></div>
-        Full Name: <input type="text" placeholder="Full Name" name="fullname" />
-        Phone: <input type="tel" placeholder="Phone" name="phone" />
-        Mail: <input type="email" placeholder="Mail" name="mail" /><br/>
-        Qualification: <input type="text" placeholder="Educational Qualification" name="qualification" />
-        Identification Number: <input type="text" placeholder="National Identification Number" name="nid" /><br/>
-        Date of Birth: <input type="date" placeholder="Date of Birth" name="dob" />
-        Gender: <input list="gender" name="gender">
-        <datalist id="gender">
-          <option value="Male">
-          <option value="Female">
-          <option value="Other">
-        </datalist>
-        Status: <input list="status" name="status">
-        <datalist id="status">
-          <option value="Married">
-          <option value="Unmarried">
-          <option value="Divorced">
-        </datalist>
+        <div class="emp_form_text_container">
+            Full Name: <br/>
+            Phone: <br/>
+            Mail: <br/>
+        </div>
+        <div class="emp_form_field_container">
+            <input type="text" placeholder="Full Name" name="fullname" /><br/>
+            <input type="tel" placeholder="Phone" name="phone" /><br/>
+            <input type="email" placeholder="Mail" name="mail" /><br/>
+        </div>
+        <div class="emp_form_text_container">
+            Qualification: <br/>
+            Identification Number: <br/>
+            Date of Birth: <br/>
+        </div>
+        <div class="emp_form_field_container">
+            <input type="text" placeholder="Educational Qualification" name="qualification" /><br/>
+            <input type="text" placeholder="National Identification Number" name="nid" /><br/>
+            <input type="date" placeholder="Date of Birth" name="dob" /><br/>
+        </div>
+        <div class="emp_form_text_container">
+            Gender: <br/>
+            Status: <br/>
+        </div>
+        <div class="emp_form_field_container">
+            <input list="gender" name="gender"/>
+            <datalist id="gender">
+              <option value="Male">
+              <option value="Female">
+              <option value="Other">
+            </datalist>
+            <input list="status" name="status"/>
+            <datalist id="status">
+              <option value="Married">
+              <option value="Unmarried">
+              <option value="Divorced">
+            </datalist>
+        </div>
+
         <h4>Official Information</h4>
         <div class="h_line"></div>
-        Mail: <input type="email" placeholder="Mail" name="email" /> Phone <input type="tel" placeholder="Phone" name="phone" />
-        Manager <input type="text" placeholder="Manager / Reporting Boss" name="manager" />
+
+        <div class="emp_form_text_container">
+            Mail: <br/>
+            Manager:
+        </div>
+        <div class="emp_form_field_container">
+            <input type="email" placeholder="Mail" name="email" /><br/>
+            <input type="text" placeholder="Manager / Reporting Boss" name="manager" />
+        </div>
+        <div class="emp_form_text_container">
+            Phone:
+        </div>
+        <div class="emp_form_field_container">
+            <input type="tel" placeholder="Phone" name="phone" />
+        </div>
+
         <h4>Financial Information</h4>
         <div class="h_line"></div>
-        Bank: <input type="text" placeholder="Bank Name" name="bankname" /> Account No: <input type="text" placeholder="Account No." name="account_no" /><br/>
-        Salary: <input type="number" placeholder="Gross Salary" name="salary_gross" />
+        <div class="emp_form_text_container">
+            Bank: <br/>
+            Salary:
+        </div>
+        <div class="emp_form_field_container">
+            <input type="text" placeholder="Bank Name" name="bankname" /><br/>
+            <input type="number" placeholder="Gross Salary" name="salary_gross" />
+        </div>
+        <div class="emp_form_text_container">
+            Account No:
+        </div>
+        <div class="emp_form_field_container">
+            <input type="text" placeholder="Account No." name="account_no" /><br/>
+        </div>
+
 
     </div>
 

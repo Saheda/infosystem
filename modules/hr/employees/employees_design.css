@@ -32,6 +32,26 @@
     margin: 0 2% 2% 0;
 }
 
+.emp_form_text_container, .emp_form_field_container {
+    width: 15%;
+    margin: 0 1%;
+    height: auto;
+
+    display: inline-block;
+    line-height: 40px;
+    vertical-align: top;
+}
+.emp_form_text_container {
+    text-align: right;
+}
+.emp_form_field_container {
+    width: 28%;
+}
+.emp_form_field_container input {
+    width: 100%;
+}
+
+
 .employee_form h4 {
     clear: both;
     margin: 10px 5px;
@@ -42,6 +62,6 @@ input[name="name"] {
 }
 .heading h1 { float: left;}
 
-input[name="new_emp"], input[name="search_employee"], input[name="search"], input[name="save_employee"] {
+.heading input {
   float: right;
 }
